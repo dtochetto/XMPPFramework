@@ -3,7 +3,8 @@
 @class XMPPIQ;
 @class XMPPJID;
 @class XMPPStream;
-@import CocoaAsyncSocket;
+//@import CocoaAsyncSocket;
+#import <CocoaAsyncSocket/GCDAsyncSocket.h>
 
 /**
  * TURNSocket is an implementation of XEP-0065: SOCKS5 Bytestreams.
